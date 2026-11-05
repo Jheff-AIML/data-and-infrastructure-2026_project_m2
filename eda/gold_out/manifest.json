@@ -1,0 +1,35 @@
+{
+  "rows": 10000,
+  "cols": 21,
+  "sha256": "4541d519bddfec1507895efa527bad1532d2ca128a45d5d909bcedce50e85c4e",
+  "features": [
+    "Diagnosis_Code",
+    "Procedure_Code",
+    "Insurance_Type",
+    "Visit_Type",
+    "Provider_Specialty",
+    "Patient_State",
+    "Claim_Amount",
+    "Approved_Amount",
+    "Number_of_Claims_Per_Provider_Monthly",
+    "Length_of_Stay",
+    "Chronic_Condition_Flag",
+    "Prior_Visits_12m",
+    "Hist_Pct_Fast_Claims",
+    "Hist_Mean_Lag",
+    "Hist_Lag_Std",
+    "Current_vs_Hist_Mean_Diff",
+    "Current_Speed_Z_Score",
+    "Submission_Month",
+    "Is_Submission_Weekend"
+  ],
+  "target": "Is_Fraud",
+  "split": "split",
+  "split_counts": {
+    "train": 8000,
+    "dev": 1000,
+    "test": 1000
+  },
+  "fraud_rate": 0.0829,
+  "source": "silver-equivalent (local) -> gold tier"
+}
